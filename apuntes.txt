@@ -1,0 +1,47 @@
+Cliente :
+- Persona Natural
+	* Nombres
+	* Apellidos
+	* DocID
+- Persona Juridica
+	* Razon Social
+	* RUC
+
+Productos:
+- Pasivo Cuenta:
+	* Ahorro
+	* Cuenta Corriente
+	* Plazo Fijo
+- Activo Credito:
+	* Personal: 1 credito x persona
+	* Empresarial: n credito x empresa
+	* Tarjeta Credito: n x persona/empresa
+
+
+Reglas de negocio:
+
+- Activo.Personal: 1 credito x persona
+- Activo.Empresarial: n credito x empresa
+
+- Cliente.Persona: 1 cuenta Ahorro, ( 1 cuenta o n cuentas plazo fijo )
+- Cliente.Empresarial: 0 cuenta ( Ahorro o plazo fijo ), n cuentas Corriente
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
